@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:school_management_system/feature/Dashboard/pages/dashboard_home_content.dart';
+import 'package:school_management_system/feature/Dashboard/pages/student_page.dart';
 import 'package:school_management_system/feature/Dashboard/pages/teacher_page.dart';
 import 'package:school_management_system/feature/Dashboard/widgets/side_bar_navigation.dart';
 
@@ -20,9 +21,10 @@ class _DashboardState extends State<Dashboard> {
     const DashboardHomeContent(), // Your current UI (Text + Action Cards)
     // const Center(child: Text('Teachers Page', style: TextStyle(fontSize: 24))),
     TeacherPage(),
-    const Center(
-      child: Text('Students/Classes Page', style: TextStyle(fontSize: 24)),
-    ),
+    // const Center(
+    //   child: Text('Students/Classes Page', style: TextStyle(fontSize: 24)),
+    // ),
+    StudentPage(),
     const Center(child: Text('Billing Page', style: TextStyle(fontSize: 24))),
     const Center(child: Text('Settings Page', style: TextStyle(fontSize: 24))),
     const Center(child: Text('Exams Page', style: TextStyle(fontSize: 24))),
